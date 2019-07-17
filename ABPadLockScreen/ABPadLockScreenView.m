@@ -395,7 +395,7 @@
 		top = 80;
 	}
     
-    self.enterPasscodeLabel.frame = CGRectMake(([self correctWidth]/2) - 150, top, 300, 23);
+    self.enterPasscodeLabel.frame = CGRectMake(([self correctWidth]/2) - 150, top, 300, 43);
     [self.contentView addSubview:self.enterPasscodeLabel];
 	
 	CGFloat pinSelectionTop = self.enterPasscodeLabel.frame.origin.y + self.enterPasscodeLabel.frame.size.height + 17.5f;
