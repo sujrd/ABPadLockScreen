@@ -549,7 +549,8 @@
     label.textColor = _labelColor;
     label.backgroundColor = [UIColor clearColor];
     label.textAlignment = NSTextAlignmentCenter;
-    
+    label.lineBreakMode = NSLineBreakByWordWrapping;
+    label.numberOfLines = 0;
     return label;
 }
 
