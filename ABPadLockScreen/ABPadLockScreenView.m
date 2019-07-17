@@ -89,7 +89,7 @@
         _requiresRotationCorrection = NO;
         
         _enterPasscodeLabel = [self standardLabel];
-        _enterPasscodeLabel.text = NSLocalizedString(@"Enter Passcode", @"");
+        _enterPasscodeLabel.text = NSLocalizedString(@"ENTER_PASSCODE", @"");
         
         _detailLabel = [self standardLabel];
         
@@ -110,11 +110,11 @@
 		UIButtonType buttonType = UIButtonTypeSystem;
 		
 		_cancelButton = [UIButton buttonWithType:buttonType];
-        [_cancelButton setTitle:NSLocalizedString(@"Cancel", @"") forState:UIControlStateNormal];
+        [_cancelButton setTitle:NSLocalizedString(@"CANCEL", @"") forState:UIControlStateNormal];
 		_cancelButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
         
         _deleteButton = [UIButton buttonWithType:buttonType];
-        [_deleteButton setTitle:NSLocalizedString(@"Delete", @"") forState:UIControlStateNormal];
+        [_deleteButton setTitle:NSLocalizedString(@"DELETE", @"") forState:UIControlStateNormal];
 		_deleteButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
         _deleteButton.alpha = 0.0f;
         
